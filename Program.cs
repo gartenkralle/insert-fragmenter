@@ -19,7 +19,7 @@ class Program
             {
                 if ((i - 1) % 1000 == 0)
                 {
-                    writer.WriteLine($"INSERT INTO LNK ({lines[0]})");
+                    writer.WriteLine($"INSERT INTO {args[2]} ({lines[0]})");
                     writer.WriteLine("VALUES");
                 }
 
