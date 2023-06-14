@@ -6,7 +6,7 @@ class Program
 
         using (StreamWriter writer = new(args[1]))
         {
-            var columns = lines[0].Split(',');
+            string[] columns = lines[0].Split(',');
 
             for (int i = 0; i < columns.Length; i++)
             {
